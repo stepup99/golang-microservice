@@ -14,7 +14,7 @@ import (
 )
 
 func main() {
-	if err := godotenv.Load(".env"); err != nil {
+	if err := godotenv.Load("../.env"); err != nil {
 		log.Fatalf("Error loading .env file: %v", err)
 	}
 	// Create a new session with hardcoded credentials and default region

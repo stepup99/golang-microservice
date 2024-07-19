@@ -4,6 +4,7 @@ go 1.22.4
 
 require (
 	github.com/aws/aws-sdk-go v1.54.20
+	github.com/golang-jwt/jwt v3.2.2+incompatible
 	github.com/joho/godotenv v1.5.1
 )
 
@@ -37,7 +38,6 @@ require (
 )
 
 require (
-	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/gin-gonic/gin v1.10.0
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 )
